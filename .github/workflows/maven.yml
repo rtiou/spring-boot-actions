@@ -43,7 +43,6 @@ jobs:
         min-coverage-overall: 40
         min-coverage-changed-lines: 60
 
-
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@v4
